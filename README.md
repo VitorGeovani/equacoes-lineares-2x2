@@ -1,5 +1,5 @@
 <h1 align="center">Calculadora de Equações Lineares - 2x2 :file_folder:</h1>
-<h3 align="center">:bookmark_tabs: Criando uma Calculadora que possibilita resolver Equações Lineares 2x2 utilizando a regra de Crammer.</h3>
+<h3 align="center">:bookmark_tabs: Criando uma Calculadora que possibilita resolver Equações Lineares 2x2 utilizando a regra de Cramer.</h3>
 <div align="center">
  <img src="https://img.shields.io/badge/-HTML5-FFF?logo=html5&logoColor=orange&style=flat" />
  <img src="https://img.shields.io/badge/CSS3-3d8fc6?style=&logo=css3&logoColor=white" />

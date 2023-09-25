@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema de Equações 2x2</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <h1>Sistema de Equações 2x2</h1>
+    
+    <p>Insira os coeficientes das equações:</p>
+
+    <label for="a1">a1:</label>
+    <input type="number" id="a1"><br>
+
+    <label for="b1">b1:</label>
+    <input type="number" id="b1"><br>
+
+    <label for="c1">c1:</label>
+    <input type="number" id="c1"><br>
+
+    <label for="a2">a2:</label>
+    <input type="number" id="a2"><br>
+
+    <label for="b2">b2:</label>
+    <input type="number" id="b2"><br>
+
+    <label for="c2">c2:</label>
+    <input type="number" id="c2"><br>
+
+    <button onclick="resolverSistema()">Resolver</button>
+
+    <p id="resultado"></p>
+
+    <div id="passos">
+        <p>Passos:</p>
+        <ol id="passosLista">
+        </ol>
+    </div>
+
+    <script src="/script.js"></script>
+</body>
+</html>

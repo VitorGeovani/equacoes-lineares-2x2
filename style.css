@@ -1,0 +1,65 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+h1 {
+    color: #333;
+}
+p {
+    color: #666;
+}
+label {
+    display: inline-block;
+    width: 50px;
+    font-weight: bold;
+    margin-right: 10px;
+}
+input {
+    width: 100px;
+    padding: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+button {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+}
+button:hover {
+    background-color: #0056b3;
+}
+#resultado {
+    font-weight: bold;
+    margin-top: 20px;
+    color: #333;
+    font-size: 18px;
+}
+#passos {
+    text-align: left;
+    margin-top: 20px;
+}
+
+#passosLista {
+    list-style-type: decimal;
+    padding-left: 35px;
+}
+@media screen and (max-width: 600px) {
+    input {
+        width: 80px;
+    }
+
+    label {
+        width: 40px;
+    }
+
+    button {
+        padding: 10px 15px;
+    }
+}
